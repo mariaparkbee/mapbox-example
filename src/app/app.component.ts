@@ -4,10 +4,11 @@ import { RouterOutlet } from '@angular/router';
 
 import { SearchBoxCore, SearchSession } from '@mapbox/search-js-core';
 
-const MAPBOX__ACCESS_TOKEN = '';
+const MAPBOX__ACCESS_TOKEN =
+  'pk.eyJ1IjoiZHBpZXRyb2NhcmxvIiwiYSI6ImNram9tOGFuMTBvb3oyeXFsdW5uYmJjNGQifQ._zE6Mub0-Vpl7ggMj8xSUQ';
 const MAPBOX_SEARCH_API_LIMIT = 5;
 const MAPBOX_SEARCH_API_POIS =
-  'outdoor,food,outlet_store,tourist_attraction,airport,park,parking_lot,church,cinema,theatre,football_stadium,aquarium,art_gallery,arts_center,department_store,shopping_mall,hotel,zoo,hospital,museum,concert_hall,entertainment,historic_site,stadium,railway_station,school,university,nightclub';
+  'food,outlet_store,tourist_attraction,airport,park,parking_lot,church,cinema,theatre,football_stadium,aquarium,art_gallery,arts_center,department_store,shopping_mall,hotel,zoo,hospital,museum,concert_hall,entertainment,historic_site,stadium,railway_station,school,university,nightclub';
 const MAPBOX_SEARCH_API_ENABLED_TYPES =
   'locality,place,neighborhood,address,poi,street';
 const MAPBOX_SEARCH_API_ENABLED_COUNTRIES = 'nl,gb,be,de';
