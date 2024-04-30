@@ -1,6 +1,6 @@
 # MapboxExample
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+For this search to work you just have o set a valid token to the const `MAPBOX__ACCESS_TOKEN` on `app.component.ts`.
 
 ## Development server
 
